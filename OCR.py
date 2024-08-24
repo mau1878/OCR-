@@ -1,10 +1,11 @@
 import os
 import streamlit as st
+import fitz  # PyMuPDF
+import io
 from google.cloud import vision
 from google.cloud.vision_v1 import types
 from google.oauth2 import service_account
 from PIL import Image
-import io
 from docx import Document
 import tempfile
 
